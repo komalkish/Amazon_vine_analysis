@@ -1,6 +1,6 @@
 # Amazon_vine_analysis
 
-# overview of the Analysis
+# Overview of the Analysis
 The analysis focuses on Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. For this project, I accessed approx.fifty reveiw datasets of Amazon and each one contains reviews of a specific product, from clothing apparel to wireless products. 
 
 ## Selection of Review Category
