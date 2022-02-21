@@ -8,7 +8,7 @@ Pet Products - https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us
 # Purpose
 I picked pet products as my category to perform analysis and utilized PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in your dataset.
 
-## Summary 
+# Summary 
 ## Step 1 - Perform ETL on Amazon Product Reviews
 Using the knowledge of the cloud ETL process, I created an AWS RDS database with tables in pgAdmin, picked a dataset from the Amazon Review datasets (see above, selection of review category), and extracted the dataset into a DataFrame. Further, I transformed the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, I uploaded the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
 <img width="1093" alt="image" src="https://user-images.githubusercontent.com/92557075/154871671-f205e4f5-29c8-46a6-b2cf-62e7d3f57490.png">
