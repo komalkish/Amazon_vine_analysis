@@ -6,7 +6,7 @@ The analysis focuses on Amazon reviews written by members of the paid Amazon Vin
 ## Selection of Review Category
 Pet Products - https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Pet_Products_v1_00.tsv.gz
 # Purpose
-I picked pet products as my category to perform analysis and utilized PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in your dataset.
+I picked pet products as my category to perform analysis and utilized PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, I used PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset.
 
 # Summary 
 ## Step 1 - Perform ETL on Amazon Product Reviews
@@ -23,7 +23,7 @@ Using PySpark, I determined if there is any bias towards reviews that were writt
 3. Total Non Vine reviews = 19437
 4. Vine star Rating percentage = 17%
 5. Non Vine start rating percentage = 54%
-Per the analysis, paid vine review does not make a differnce in the percentage of 5- Star rating.
+* Per the analysis, paid vine review does not make a difference in the percentage of 5- Star rating.
 <img width="1014" alt="image" src="https://user-images.githubusercontent.com/92557075/154872541-ddbbb11f-5c25-4efc-b42e-4b1a7b737708.png">
 Recomendation
 To further analyze for all rating below 5. 
